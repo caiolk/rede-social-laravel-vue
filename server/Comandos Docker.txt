@@ -1,0 +1,18 @@
+https://hub.docker.com/r/trafex/alpine-nginx-php7
+
+docker-compose up -d (modo daemon)
+docker-compose logs -f -t (logs dos containers)
+docker-compose stop (para containers)
+docker-compose restart (reinicia containers)
+docker exec -ti "nome_container" sh (acessar modo interativo do ALPINE)
+docker exec -ti "nome_container" bash (acessar modo interativo do UBUNTU)
+docker inspect "nome_container" (Inspecionar container)
+docker ps -a (verifica todos containers já criados)
+docker container stop $(docker container ls -aq)   (comando pra excluir todos containers)
+docker-compose up -d --force-recreate --build (reconstruir container p/ alteracoes)
+
+Git origin
+
+git clone https://caiolk@bitbucket.org/caiolk/lara-vue-node-api.git
+git remote add origin https://caiolk@bitbucket.org/caiolk/lara-vue-node-api.git
+git push -u origin master

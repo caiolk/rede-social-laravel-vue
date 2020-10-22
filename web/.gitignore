@@ -1,0 +1,9 @@
+# Global
+.*.swp
+
+# SSL Certs
+node_modules/
+dist/
+.DS_Store
+composer.json
+package-lock.json

@@ -1,0 +1,10 @@
+#data mysql
+mysql
+
+#app laravel
+php/vendor
+php/public/perfil/*
+readme.md
+.styleci.yml
+.env
+.env.example
